@@ -1,1 +1,3 @@
-workerprocess: sh target/bin/workerprocess
+web: java -cp target/classes:target/dependency/* WorkerProcess
+
+
