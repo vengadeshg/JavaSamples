@@ -1,3 +1,3 @@
-web: java -cp target/classes:target/dependency/* WorkerProcess
+web: java $JAVA_OPTS -cp target/classes:target/dependency/* Main
 
 
